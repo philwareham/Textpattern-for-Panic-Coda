@@ -1,0 +1,4 @@
+Changes with Version 1.1
+    
+	*) Brought in line with current Coda format.
+	*) Added CodaCompletion.plist.

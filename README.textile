@@ -1,0 +1,19 @@
+h1. Textpattern mode for Panic's Coda
+
+This is a "Textpattern":http://textpattern.com/ mode for "Panic Coda":http://www.panic.com/coda/ on a Mac - enables Textpattern CMS specific tag syntax in Coda when editing files of suffix @x.txp@.
+
+
+h2. Installation
+
+# Download and unzip Textpattern.mode.
+# Drag the folder into @~/Library/Application Support/Coda/Modes@.
+# If Coda is currently running, quit and relaunch.
+
+*Note for Mac OSX Lion users:* by default Apple have hidden the library directory in Lion home folders - you can show it again by opening the terminal and entering the following command:
+
+bc. chflags nohidden ~/Library
+
+h2. Known issues
+
+# The mode currently does not work as an extension of PHP-HTML mode, which it should do.
+# The autocomplete is, erm, incomplete! Got to write a proper @CodaCompletion.plist@ instead of the current @AutocompleteAdditions.txt@.
