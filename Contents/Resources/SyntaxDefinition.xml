@@ -1,31 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE syntax SYSTEM "syntax.dtd">
 <syntax>
 
     <head>
-
-        <name>Textpattern</name>
-
-        <autocompleteoptions use-spelling-dictionary="yes" />
-
-        <!-- 
-        The <charsintokens> and the <charsdelimitingtokens> instruct the syntax highlighter
-        where to tokenize the text for fast finding of plain strings.
-        The <charsintokens> tag specifies the characters that can occur in strings,
-        the <charsdelimitingtokens> tag specifies the tags that cannot occur in strings.
-        One of these tags has to be specified.
-        Tip: Use CDATA here.
-        -->    
-
-        <charsintokens><![CDATA[_0987654321abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-@"$]]></charsintokens> 
-        <charsincompletion><![CDATA[_0987654321abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-@$</=>!]]></charsincompletion>
-        
-	</head> 
+        <name>Textpattern</name> <!-- The definitions title -->
+        <charsintokens><![CDATA[_0987654321abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-@$"]]></charsintokens> 
+        <charsincompletion><![CDATA[_0987654321abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-@$</=>!]]></charsincompletion> 
+    </head>
 
     <states>
     
-        <default id="Base" color="#000" background-color="#fff" font-weight="normal" font-style="normal" usespellchecking="yes">
-        
-            <import mode="PHP-HTML" />
+        <default id="Base" color="#000" background-color="#fff" font-weight="normal" font-style="normal" usesymbolsfrommode="HTML" useautocompletefrommode="HTML" usespellchecking="yes">
         
             <state id="Textpattern" color="#008405" inverted-color="#00FF04" font-weight="normal" font-style="normal">
                 
