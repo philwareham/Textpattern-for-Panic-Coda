@@ -15,5 +15,5 @@ bc. chflags nohidden ~/Library
 
 h2. Known issues
 
-# The mode currently does not work as an extension of PHP-HTML mode, which it should do.
+# The Textpattern state is not currently reading the autoconplete - possible an error somewhere in the regex code.
 # The autocomplete is, erm, incomplete! Got to write a proper @CodaCompletion.plist@ instead of the current @AutocompleteAdditions.txt@.

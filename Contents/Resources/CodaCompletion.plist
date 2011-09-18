@@ -2,27 +2,57 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Comments</key>
-	<dict>
-		<key>EndTag</key>
-		<string>*/</string>
-		<key>StartTag</key>
-		<string>/*</string>
-	</dict>
 	<key>Completions</key>
 	<array>
-		<dict>
+
+        <dict>
 			<key>Hint</key>
-			<string></string>
+			<string>&lt;txp:hide&gt;This is hidden from the HTML structure&lt;/txp:hide&gt;</string>
 			<key>ID</key>
-			<string></string>
-			<key>MoveCursor</key>
-			<string>1</string>
+			<string>hide</string>
 			<key>PostString</key>
-			<string></string>
+			<string>&lt;/txp:hide&gt;</string>
 			<key>String</key>
-			<string></string>
+			<string>hide</string>
 		</dict>
+
+		<dict>
+			<key>Attributes</key>
+			<array>
+				<dict>
+					<key>MoveCursor</key>
+					<integer>2</integer>
+					<key>PostString</key>
+					<string>=""</string>
+					<key>String</key>
+					<string>showalways</string>
+					<key>Values</key>
+					<array>
+						<dict>
+							<key>MoveCursor</key>
+							<integer>1</integer>
+							<key>String</key>
+							<string>0</string>
+						</dict>
+						<dict>
+							<key>MoveCursor</key>
+							<integer>1</integer>
+							<key>String</key>
+							<string>1</string>
+						</dict>
+					</array>
+				</dict>
+			</array>
+			<key>Hint</key>
+			<string>&lt;txp:newer&gt;Newer&lt;/txp:newer&gt;</string>
+			<key>ID</key>
+			<string>newer</string>
+			<key>PostString</key>
+			<string>&lt;/txp:newer&gt;</string>
+			<key>String</key>
+			<string>newer</string>
+		</dict>
+
 	</array>
 	<key>Name</key>
 	<string>Textpattern</string>
