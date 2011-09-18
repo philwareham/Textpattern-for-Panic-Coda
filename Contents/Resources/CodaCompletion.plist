@@ -9,7 +9,7 @@
 			<key>Hint</key>
 			<string>&lt;txp:hide&gt;This is hidden from the HTML structure&lt;/txp:hide&gt;</string>
 			<key>ID</key>
-			<string>hide</string>
+			<string>txp:hide</string>
 			<key>PostString</key>
 			<string>&lt;/txp:hide&gt;</string>
 			<key>String</key>
@@ -46,7 +46,7 @@
 			<key>Hint</key>
 			<string>&lt;txp:newer&gt;Newer&lt;/txp:newer&gt;</string>
 			<key>ID</key>
-			<string>newer</string>
+			<string>txp:newer</string>
 			<key>PostString</key>
 			<string>&lt;/txp:newer&gt;</string>
 			<key>String</key>
