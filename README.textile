@@ -1,19 +1,19 @@
-h1. Textpattern mode for Panic's Coda
+h1. Textpattern elements for Panic Coda 2
 
-This is a "Textpattern":http://textpattern.com/ mode for "Panic Coda":http://www.panic.com/coda/ on a Mac - enables Textpattern CMS specific tag syntax in Coda when editing files of suffix @x.txp@.
+Handy elements for use with "Panic Coda 2":http://www.panic.com/coda/ on a Mac when authoring files for the "Textpattern CMS":http://textpattern.com/.
 
+This reposotory contains a Textpattern reference book,  a Textpattern mode *(coming soon)* and Textpattern tag syntax colouring *(coming soon)*.
 
 h2. Installation
 
-# Download and unzip Textpattern.mode.
-# Drag the folder into @~/Library/Application Support/Coda/Modes@.
-# If Coda is currently running, quit and relaunch.
+# Download and unzip Textpattern-for-Panic-Coda zip file from this repository.
+# You will need access to your OSX User Home Library directory (~/Library/), if you are using OSX 10.7 (Lion) this may been hidden by default. You can make the directory appear by opening Terminal.app and entering the follwing command: @chflags nohidden ~/Library/@. "Further information available here":http://osxdaily.com/2011/07/22/access-user-library-folder-in-os-x-lion/.
+# Navigate to Home -> Library -> Application Support -> Coda 2.
+# Place the book files from this repository into the corresponding 'Books' directory within the Coda 2 directory.
+# Place the mode file from this repository into the corresponding 'Modes' directory within the Coda 2 directory (coming soon).
+# Place the styles files from this repository into the corresponding 'Styles' directory within the Coda 2 directory (coming soon).
+# If Coda 2 is currently running, quit and relaunch.
 
-*Note for Mac OSX Lion users:* by default Apple have hidden the library directory in Lion home folders - you can show it again by opening the terminal and entering the following command:
+h2. Licence
 
-bc. chflags nohidden ~/Library
-
-h2. Known issues
-
-# The Textpattern state is not currently reading the autoconplete - possible an error somewhere in the regex code.
-# The autocomplete is, erm, incomplete! Got to write a proper @CodaCompletion.plist@ instead of the current @AutocompleteAdditions.txt@.
+Public domain.
