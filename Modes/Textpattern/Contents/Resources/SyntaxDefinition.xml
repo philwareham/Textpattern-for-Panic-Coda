@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE syntax SYSTEM "syntax.dtd">
+<syntax>
+
+    <head>
+        <name>Textpattern</name> <!-- The definitions title -->
+        <charsintokens><![CDATA[_0987654321abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-@$"]]></charsintokens> 
+        <charsincompletion><![CDATA[_0987654321abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-@$</=>!]]></charsincompletion> 
+    </head>
+
+    <states>
+
+        <default id="Base" color="#000" background-color="#fff" font-weight="normal" font-style="normal" usesymbolsfrommode="HTML" useautocompletefrommode="HTML" usespellchecking="yes">
+
+            <import mode="PHP-HTML" />
+
+            <state id="Textpattern" color="#000" inverted-color="#fff" usesymbolsfrommode="Textpattern" useautocompletefrommode="Textpattern">
+
+                <begin><regex>&lt;/?txp:(?!php)</regex></begin>
+                <end><regex>/?&gt;</regex></end>
+
+                <keywords id="Delimiter" color="#008405" inverted-color="#00FF04" useforautocomplete="yes">
+                    <regex>(&lt;/?txp:)</regex>
+                    <regex>(/?&gt;)</regex>
+                </keywords>
+
+                <keywords id="Tags" color="#a00" inverted-color="#4bcefd" useforautocomplete="yes">
+                    <string>article</string>
+                    <string>article_custom</string>
+                    <string>article_id</string>
+                    <string>article_image</string>
+                    <string>article_url_title</string>
+                    <string>author</string>
+                    <string>body</string>
+                    <string>breadcrumb</string>
+                    <string>category</string>
+                    <string>category_list</string>
+                    <string>category1</string>
+                    <string>category2</string>
+                    <string>comment_anchor</string>
+                    <string>comment_email</string>
+                    <string>comment_email_input</string>
+                    <string>comment_id</string>
+                    <string>comment_message</string>
+                    <string>comment_message_input</string>
+                    <string>comment_name</string>
+                    <string>comment_name_input</string>
+                    <string>comment_permlink</string>
+                    <string>comment_preview</string>
+                    <string>comment_remember</string>
+                    <string>comment_submit</string>
+                    <string>comment_time</string>
+                    <string>comment_web</string>
+                    <string>comment_web_input</string>
+                    <string>comments</string>
+                    <string>comments_count</string>
+                    <string>comments_error</string>
+                    <string>comments_form</string>
+                    <string>comments_help</string>
+                    <string>comments_invite</string>
+                    <string>comments_preview</string>
+                    <string>css</string>
+                    <string>custom_field</string>
+                    <string>else</string>
+                    <string>email</string>
+                    <string>error_message</string>
+                    <string>error_status</string>
+                    <string>excerpt</string>
+                    <string>expires</string>
+                    <string>feed_link</string>
+                    <string>file_download</string>
+                    <string>file_download_author</string>
+                    <string>file_download_category</string>
+                    <string>file_download_created</string>
+                    <string>file_download_description</string>
+                    <string>file_download_downloads</string>
+                    <string>file_download_id</string>
+                    <string>file_download_link</string>
+                    <string>file_download_list</string>
+                    <string>file_download_modified</string>
+                    <string>file_download_name</string>
+                    <string>file_download_size</string>
+                    <string>hide</string>
+                    <string>if_article_author</string>
+                    <string>if_article_category</string>
+                    <string>if_article_id</string>
+                    <string>if_article_image</string>
+                    <string>if_article_list</string>
+                    <string>if_article_section</string>
+                    <string>if_author</string>
+                    <string>if_category</string>
+                    <string>if_comments</string>
+                    <string>if_comments_allowed</string>
+                    <string>if_comments_disallowed</string>
+                    <string>if_comments_error</string>
+                    <string>if_comments_preview</string>
+                    <string>if_custom_field</string>
+                    <string>if_different</string>
+                    <string>if_excerpt</string>
+                    <string>if_expired</string>
+                    <string>if_expires</string>
+                    <string>if_first_article</string>
+                    <string>if_first_category</string>
+                    <string>if_first_section</string>
+                    <string>if_individual_article</string>
+                    <string>if_keywords</string>
+                    <string>if_last_article</string>
+                    <string>if_last_category</string>
+                    <string>if_last_section</string>
+                    <string>if_plugin</string>
+                    <string>if_search</string>
+                    <string>if_search_results</string>
+                    <string>if_section</string>
+                    <string>if_status</string>
+                    <string>if_variable</string>
+                    <string>image</string>
+                    <string>image_author</string>
+                    <string>image_date</string>
+                    <string>image_display</string>
+                    <string>image_index</string>
+                    <string>image_info</string>
+                    <string>image_url</string>
+                    <string>images</string>
+                    <string>keywords</string>
+                    <string>lang</string>
+                    <string>link</string>
+                    <string>link_author</string>
+                    <string>link_category</string>
+                    <string>link_date</string>
+                    <string>link_description</string>
+                    <string>link_feed_link</string>
+                    <string>link_id</string>
+                    <string>link_name</string>
+                    <string>link_to_home</string>
+                    <string>link_to_next</string>
+                    <string>link_to_prev</string>
+                    <string>link_url</string>
+                    <string>linkdesctitle</string>
+                    <string>linklist</string>
+                    <string>meta_author</string>
+                    <string>meta_keywords</string>
+                    <string>modified</string>
+                    <string>newer</string>
+                    <string>next_title</string>
+                    <string>older</string>
+                    <string>output_form</string>
+                    <string>page_title</string>
+                    <string>page_url</string>
+                    <string>password_protect</string>
+                    <string>permlink</string>
+                    <string>popup</string>
+                    <string>posted</string>
+                    <string>prev_title</string>
+                    <string>recent_articles</string>
+                    <string>recent_comments</string>
+                    <string>related_articles</string>
+                    <string>rsd</string>
+                    <string>search_input</string>
+                    <string>search_result_count</string>
+                    <string>search_result_date</string>
+                    <string>search_result_excerpt</string>
+                    <string>search_result_title</string>
+                    <string>search_result_url</string>
+                    <string>search_term</string>
+                    <string>section</string>
+                    <string>section_list</string>
+                    <string>site_name</string>
+                    <string>site_slogan</string>
+                    <string>site_url</string>
+                    <string>text</string>
+                    <string>thumbnail</string>
+                    <string>title</string>
+                    <string>txp_die</string>
+                    <string>variable</string>
+                    <string>yield</string>
+                    <regex>(?:txp\:)([\w-]*)</regex>
+                </keywords>
+
+                <keywords id="Attributes" color="#994500" inverted-color="#FFAB65" useforautocomplete="no">
+                    <regex>([\w-]*)(?=[ \t]*=)</regex>
+                </keywords>
+
+                <state id="Strings" type="string" color="#1A1AA6" inverted-color="#DFDF00" useforautocomplete="no">
+                    <begin><regex>"</regex></begin>
+                    <end><regex>"</regex></end>
+                    <state-link state="Textpattern" />
+                    <state-link state="Textpattern PHP" />
+                </state>
+
+                <state id="Single" type="string" color="#1A1AA6" inverted-color="#FF7F00" useforautocomplete="no">
+                    <begin><regex>'</regex></begin>
+                    <end><regex>'</regex></end>
+                    <state-link state="Textpattern" />
+                    <state-link state="Textpattern PHP" />
+                </state>
+
+            </state>
+            
+            <state id="Textpattern PHP" color="#000000" inverted-color="#FFFFFF" font-weight="normal" font-style="normal" usesymbolsfrommode="PHP-HTML" useautocompletefrommode="PHP-HTML">
+
+                <begin><regex>&lt;txp:php[\s]*?&gt;</regex></begin>
+                <end><regex>&lt;/txp:php[\s]*?&gt;</regex></end>
+
+                <keywords id="TXP PHP Delimiter" color="#FF0000" inverted-color="#FF0000" font-weight="normal" font-style="normal">
+                    <regex>(&lt;/?txp:php[\s]*?&gt;)</regex>
+                </keywords>
+
+                <import mode="PHP-HTML" state="PHP" />
+
+            </state>
+
+        </default>
+        
+    </states>
+
+</syntax>
