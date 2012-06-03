@@ -3,7 +3,7 @@
 
 <syntax>
 	<head>
-		<name>Textpattern CMS</name>
+		<name>Textpattern</name>
 		<!-- The definitions title -->
 		<charsintokens><![CDATA[_0987654321abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-@$"]]></charsintokens> 
 		<charsincompletion><![CDATA[_0987654321abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-@$</=>!]]></charsincompletion> 

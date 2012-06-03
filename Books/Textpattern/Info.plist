@@ -3,11 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>ModeIdentifier</key>
-	<string>SEEMode.PHP-HTML</string>
+	<string>SEEMode.Textpattern</string>
 	<key>SearchURLString</key>
 	<string>http://textbook.textpattern.net/wiki/index.php?search=*</string>
 	<key>Title</key>
-	<string>Textpattern CMS</string>
+	<string>Textpattern</string>
 	<key>URLString</key>
 	<string>http://textbook.textpattern.net/wiki/index.php?title=Category:Tag_Reference</string>
 </dict>
