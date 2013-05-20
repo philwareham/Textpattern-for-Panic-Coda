@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>/CSS/CSS Attributes</key>
+	<string>_Default.Keywords</string>
+	<key>/CSS/CSS Colors</key>
+	<string>_Default.Keywords</string>
+	<key>/CSS/CSS Digits</key>
+	<string>_Default.Numbers</string>
+	<key>/CSS/CSS Keywords</key>
+	<string>_Default.Keywords</string>
+	<key>/JavaScript/Characters</key>
+	<string>_Default.Numbers</string>
+	<key>/JavaScript/FunctionRegex</key>
+	<string>_Default.FunctionRegex</string>
+	<key>/JavaScript/Keywords</key>
+	<string>_Default.Keywords</string>
+	<key>/JavaScript/Numbers</key>
+	<string>_Default.Numbers</string>
+	<key>/WordPress/Attributes in Tags</key>
+	<string>HTML.Attributes in Tags</string>
+	<key>/WordPress/CDATA</key>
+	<string>HTML.PHP Delimiter</string>
+	<key>/WordPress/CSSComment</key>
+	<string>Comment</string>
+	<key>/WordPress/CSSRound bracket</key>
+	<string>/WordPress/CSSRound bracket</string>
+	<key>/WordPress/CSSSingleString</key>
+	<string>String</string>
+	<key>/WordPress/CSSString</key>
+	<string>String2</string>
+	<key>/WordPress/Comment</key>
+	<string>Comment</string>
+	<key>/WordPress/Doctype</key>
+	<string>Comment</string>
+	<key>/WordPress/Entities</key>
+	<string>HTML.Entities</string>
+	<key>/WordPress/Escape</key>
+	<string>/WordPress/Escape</string>
+	<key>/WordPress/FunctionRegex</key>
+	<string>_Default.FunctionRegex</string>
+	<key>/WordPress/Inline CSS</key>
+	<string>/WordPress/Inline CSS</string>
+	<key>/WordPress/Inline JavaScript</key>
+	<string>/WordPress/Inline JavaScript</string>
+	<key>/WordPress/Inside curly brackets</key>
+	<string>/WordPress/Inside curly brackets</string>
+	<key>/WordPress/JSAutodocComment</key>
+	<string>Comment</string>
+	<key>/WordPress/JSComment</key>
+	<string>Comment</string>
+	<key>/WordPress/JSRegEx</key>
+	<string>String</string>
+	<key>/WordPress/JSSingleComment</key>
+	<string>SingleComment</string>
+	<key>/WordPress/JSSingleString</key>
+	<string>String</string>
+	<key>/WordPress/JSString</key>
+	<string>String</string>
+	<key>/WordPress/Opening Script Tag</key>
+	<string>HTML.Tags</string>
+	<key>/WordPress/Opening Style Tag</key>
+	<string>HTML.Tags</string>
+	<key>/WordPress/PHP</key>
+	<string>/WordPress/PHP</string>
+	<key>/WordPress/PHP Comment</key>
+	<string>Comment</string>
+	<key>/WordPress/PHP Delimiter</key>
+	<string>HTML.PHP Delimiter</string>
+	<key>/WordPress/PHP Heredoc</key>
+	<string>String2</string>
+	<key>/WordPress/PHP Keywords</key>
+	<string>_Default.Keywords</string>
+	<key>/WordPress/PHP Magic Methods</key>
+	<string>_Default.Magic Methods</string>
+	<key>/WordPress/PHP Numbers</key>
+	<string>_Default.Numbers</string>
+	<key>/WordPress/PHP SingleComment</key>
+	<string>SingleComment</string>
+	<key>/WordPress/PHP String</key>
+	<string>String</string>
+	<key>/WordPress/PHP String2</key>
+	<string>String2</string>
+	<key>/WordPress/PHP Variables</key>
+	<string>_Default.Variables</string>
+	<key>/WordPress/PHP4 Functions</key>
+	<string>_Default.PHP4 Functions</string>
+	<key>/WordPress/SGML Double Dash</key>
+	<string>Comment</string>
+	<key>/WordPress/Script Tags</key>
+	<string>HTML.Tags</string>
+	<key>/WordPress/Strings in Tags</key>
+	<string>HTML.Strings</string>
+	<key>/WordPress/Style Tags</key>
+	<string>HTML.Tags</string>
+	<key>/WordPress/Tags</key>
+	<string>HTML.Tags</string>
+	<key>/WordPress/Variables</key>
+	<string>_Default.Variables</string>
+	<key>_Default</key>
+	<string>_Default</string>
+</dict>
+</plist>
