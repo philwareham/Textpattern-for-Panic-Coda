@@ -2,7 +2,7 @@ h1. Textpattern elements for Panic Coda 2
 
 Handy elements for use with "Panic Coda 2":http://www.panic.com/coda/ on a Mac when authoring files for the "Textpattern CMS":http://textpattern.com/.
 
-This reposotory contains a Textpattern reference book, a Textpattern mode *(coming soon)* and Textpattern tag syntax colouring *(coming soon)*.
+This repository contains Textpattern clips, a Textpattern reference book, a Textpattern mode *(coming soon)* and Textpattern tag syntax colouring *(coming soon)*.
 
 h2. Installation
 
@@ -12,6 +12,7 @@ h2. Installation
 # Place the mode file from this repository into the corresponding 'Modes' directory within the Coda 2 directory (coming soon).
 # Place the styles files from this repository into the corresponding 'Styles' directory within the Coda 2 directory (coming soon).
 # If Coda 2 is currently running, quit and relaunch.
+# Navigate to the clips panel and import the 'textpattern.clips' file (either by using right-click contextual menu within the panel or by selecting the gear icon in the bottom section of the panel).
 
 h2. Licence
 
