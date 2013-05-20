@@ -2,13 +2,12 @@ h1. Textpattern elements for Panic Coda 2
 
 Handy elements for use with "Panic Coda 2":http://www.panic.com/coda/ on a Mac when authoring files for the "Textpattern CMS":http://textpattern.com/.
 
-This reposotory contains a Textpattern reference book,  a Textpattern mode *(coming soon)* and Textpattern tag syntax colouring *(coming soon)*.
+This reposotory contains a Textpattern reference book, a Textpattern mode *(coming soon)* and Textpattern tag syntax colouring *(coming soon)*.
 
 h2. Installation
 
 # Download and unzip Textpattern-for-Panic-Coda zip file from this repository.
-# You will need access to your OSX User Home Library directory (~/Library/), if you are using OSX 10.7 (Lion) this may been hidden by default. You can make the directory appear by opening Terminal.app and entering the follwing command: @chflags nohidden ~/Library/@. "Further information available here":http://osxdaily.com/2011/07/22/access-user-library-folder-in-os-x-lion/.
-# Navigate to Home -> Library -> Application Support -> Coda 2.
+# Open Terminal.app and run the following command: @cd ~/Library/Application\ Support/Coda\ 2/@, then run the following command: @open@. The Finder will then open the Coda directory within the Application Support directory.
 # Place the book files from this repository into the corresponding 'Books' directory within the Coda 2 directory.
 # Place the mode file from this repository into the corresponding 'Modes' directory within the Coda 2 directory (coming soon).
 # Place the styles files from this repository into the corresponding 'Styles' directory within the Coda 2 directory (coming soon).
