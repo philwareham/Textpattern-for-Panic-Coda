@@ -1,0 +1,2 @@
+Changes with Version 2.0
+    *) Brought in line with current Coda 2 format.
