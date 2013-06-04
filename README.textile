@@ -2,9 +2,9 @@ h1. Textpattern elements for Panic Coda 2
 
 Handy elements for use with "Panic Coda 2":http://www.panic.com/coda/ on a Mac when authoring files for the "Textpattern CMS":http://textpattern.com/.
 
-This repository contains Textpattern clips, a Textpattern reference book and a Textpattern mode (works OK, but improvements probably could be done).
+This repository contains Textpattern clips, a Textpattern reference book and a Textpattern mode (works OK, but improvements could be done in due course).
 
-Once the Textpatterrn Mode is installed, any files with a @*.txp@ file extension will be recognised in Coda as Textpattern template files (pages/forms) and will have syntax highlighting applied to them.
+Once the Textpattern mode is installed, any files with a @*.txp@ file extension will be recognised in Coda as Textpattern template files (pages/forms) and will have syntax highlighting applied to them.
 
 h2. Installation
 
