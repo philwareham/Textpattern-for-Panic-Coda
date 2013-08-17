@@ -11,7 +11,7 @@ h2. Installation
 # Download and unzip Textpattern-for-Panic-Coda zip file from this repository.
 # Open Terminal.app and run the following command: @cd ~/Library/Application\ Support/Coda\ 2/@, then run the following command: @open@. The Finder will then open the Coda directory within the Application Support directory.
 # Place the book files from this repository into the corresponding 'Books' directory within the Coda 2 directory.
-# Place the mode file from this repository into the corresponding 'Modes' directory within the Coda 2 directory.
+# Rename the directory within Modes from @textpattern@ to @textpattern.moda@, which will turn the directory into a proper mode file, then place that mode file from this repository into the corresponding 'Modes' directory within the Coda 2 directory.
 # If Coda 2 is currently running, quit and relaunch.
 # Navigate to the clips panel and import the 'textpattern.clips' file (either by using right-click contextual menu within the panel or by selecting the gear icon in the bottom section of the panel).
 
