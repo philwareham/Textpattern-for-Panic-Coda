@@ -3,12 +3,12 @@
 <plist version="1.0">
 <dict>
 	<key>ModeIdentifier</key>
-	<string>SEEMode.PHP-HTML</string>
+	<string>SEEMode.Textpattern</string>
 	<key>SearchURLString</key>
-	<string>http://textbook.textpattern.net/wiki/index.php?search=*</string>
+	<string>https://docs.textpattern.io/search/?q=*</string>
 	<key>Title</key>
 	<string>Textpattern CMS</string>
 	<key>URLString</key>
-	<string>http://textbook.textpattern.net/wiki/index.php?title=Category:Tag_Reference</string>
+	<string>https://docs.textpattern.io/tags/</string>
 </dict>
 </plist>
